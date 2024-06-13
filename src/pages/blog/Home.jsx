@@ -7,6 +7,7 @@ import { fetchBlog } from "../../../store/blogSlice";
 import Spinner from "./components/spinner/Spinner";
 
 const Home = () => {
+  throw new Error('Error in home page')
   const dispatch = useDispatch();
   const { inputData, deleteStatus } = useSelector((store) => store.blog);
   console.log(inputData);

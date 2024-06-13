@@ -27,7 +27,7 @@ const Form = ({ type, onSubmit, user }) => {
             <div>
               <h1 className="text-2xl font-semibold">
                 {type === "Login"
-                  ? "Login here to continue..."
+                  ? "haha here to continue..."
                   : "Register here to continue..."}
               </h1>
             </div>
